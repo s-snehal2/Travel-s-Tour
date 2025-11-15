@@ -2,7 +2,7 @@ import { Card, CardContent, CardTitle } from "@/components/ui/card";
 
 function TripInfo() {
   return (
-    <div>
+    <div className="p-1">
       <Card>
         <CardTitle className="text-center">
           Explore Your Next Adventure

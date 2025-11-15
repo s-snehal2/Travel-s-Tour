@@ -11,32 +11,38 @@ function Navigation() {
       <NavigationMenu>
         <NavigationMenuList className="flex items-center ">
           <NavigationMenuItem>
-            <NavigationMenuLink className="cursor-pointer text-center">
+            <NavigationMenuLink className="text-center">
               Home
             </NavigationMenuLink>
           </NavigationMenuItem>
 
           <NavigationMenuItem>
-            <NavigationMenuLink className="cursor-pointer text-center">
+            <NavigationMenuLink className="text-center">
               History
             </NavigationMenuLink>
           </NavigationMenuItem>
 
           <NavigationMenuItem>
-            <NavigationMenuLink className="cursor-pointer text-center">
+            <NavigationMenuLink className="text-center">
               Location
             </NavigationMenuLink>
           </NavigationMenuItem>
 
           <NavigationMenuItem>
-            <NavigationMenuLink className="cursor-pointer text-center">
+            <NavigationMenuLink className="text-center">
               Account
             </NavigationMenuLink>
           </NavigationMenuItem>
 
           <NavigationMenuItem>
-            <NavigationMenuLink className="cursor-pointer text-center">
+            <NavigationMenuLink className="text-center">
               Settings
+            </NavigationMenuLink>
+          </NavigationMenuItem>
+
+          <NavigationMenuItem>
+            <NavigationMenuLink className="text-center">
+              Blog
             </NavigationMenuLink>
           </NavigationMenuItem>
         </NavigationMenuList>

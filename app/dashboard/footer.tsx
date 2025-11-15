@@ -3,7 +3,7 @@ import { History, Home, MapPin, Search, Settings } from "lucide-react";
 function Footer() {
   return (
     <div>
-      <div className="md:hidden flex flex-row items-center justify-between border-b border-border px-4 py-6 bg-background shadow-sm ">
+      <div className="md:hidden flex flex-row items-center justify-between border-b border-border px-4 py-6  ">
         <Home />
         <History />
         <Search />

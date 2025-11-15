@@ -5,7 +5,7 @@ function Thirdsection() {
   return (
     <div className="relative w-full h-[20vh] md:h-[30vh] rounded-xl">
       <Image
-        src="/images/img32.JPG"
+        src="/images/img32.jpg"
         alt="Upcoming trip"
         fill
         className="object-cover"

@@ -35,14 +35,14 @@ export default function MyForm() {
   }
 
   return (
-    <div className="">
+    <div className="p-0">
       <div className="p-1">
         <TripInfo />
       </div>
       <Form {...form}>
         <form
           onSubmit={form.handleSubmit(onSubmit)}
-          className="space-y-8  mx-auto py-10 "
+          className="space-y-8  mx-auto py-2 px-2 "
         >
           <div className="font-bold text-xl">For Enquire</div>
           <div className="grid grid-cols-12 gap-4">

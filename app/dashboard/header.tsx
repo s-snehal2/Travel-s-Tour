@@ -1,6 +1,6 @@
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Input } from "@/components/ui/input";
-import { BellIcon, MessageCircle, Search, Tent } from "lucide-react";
+import { BellIcon, MapPin, MessageCircle, Search, Tent } from "lucide-react";
 import React, { useState } from "react";
 import { ModeToggle } from "./togglemode";
 import Profile from "./profile";
@@ -21,6 +21,10 @@ function Header() {
         <div className="hidden md:block relative w-1/3">
           <Input placeholder="Search locations..." className="pl-8 w-full" />
           <Search
+            size={16}
+            className="absolute right-2 top-1/2 -translate-y-1/2 text-muted-foreground"
+          />
+          <MapPin
             size={16}
             className="absolute left-2 top-1/2 -translate-y-1/2 text-muted-foreground"
           />
