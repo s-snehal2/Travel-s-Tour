@@ -10,6 +10,7 @@ import {
 import { blogData } from "./data";
 import Image from "next/image";
 import { AnimatePresence, motion } from "framer-motion";
+import { ScrollArea } from "@/components/ui/scroll-area";
 
 export type BlogCard = {
   id: number;
@@ -31,11 +32,13 @@ function Blog() {
   }, []);
 
   return (
-    <div className=" space-y-4 p-2">
-      <div className="text-xl md:text-2xl px-4 font-semibold">Latest Blog</div>
+    <div className=" space-y-2 p-6 border border-border">
+      <div className="text-xl md:text-2xl text-center px-4 font-semibold">
+        Latest Blog
+      </div>
 
-      {/* HORIZONTAL SCROLL */}
-      <div className="flex gap-4 overflow-auto">
+      <div className="flex gap-4 p-4 overflow-auto ">
+        <ScrollArea></ScrollArea>
         {blogData.map((d) => {
           const index = current % d.image.length;
 

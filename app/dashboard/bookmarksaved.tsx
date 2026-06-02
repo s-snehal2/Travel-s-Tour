@@ -1,5 +1,7 @@
+"use client";
+
 import { Bookmark } from "lucide-react";
-import React, { useState } from "react";
+import { useState } from "react";
 import { toast } from "sonner";
 
 function BookmarkSaved() {

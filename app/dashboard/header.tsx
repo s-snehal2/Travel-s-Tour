@@ -18,23 +18,12 @@ function Header() {
           <span>Travel & Tour</span>
         </div>
 
-        <div className="hidden md:block relative w-1/3">
-          <Input placeholder="Search locations..." className="pl-8 w-full" />
-          <Search
-            size={16}
-            className="absolute right-2 top-1/2 -translate-y-1/2 text-muted-foreground"
-          />
-          <MapPin
-            size={16}
-            className="absolute left-2 top-1/2 -translate-y-1/2 text-muted-foreground"
-          />
-        </div>
-
         <div className="flex items-center gap-2">
           <MessageCircle size={32} className="bg-muted rounded-full p-1" />
           <BellIcon size={32} className="bg-muted rounded-full p-1" />
-
-          <ModeToggle />
+          <div className="md:hidden">
+            <ModeToggle />
+          </div>
 
           {/* Avatar click */}
           <Avatar
